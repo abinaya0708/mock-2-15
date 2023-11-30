@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+}
+section{
+    background-color:#80145a;
+    height:100vh;
+    color:white;
+}
+.container{
+    width:90%;
+    margin: auto;
+
+    text-align: center;
+}
+.image-div{
+    width:20%;
+    margin: auto;
+
+    padding: 10px 0;
+
+}
+.image-div img{
+    width:100%;
+    border-radius: 50%;
+}
+h2{
+    padding: 20px;
+}
+h2+p{
+    padding:5px 0 30px 0;
+    font-size: 18px;
+}
+.card{
+    /* width:45%; */
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+
+    border:1px solid rgb(201, 191, 191);
+
+    padding:30px;
+}
